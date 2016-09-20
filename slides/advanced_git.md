@@ -43,6 +43,7 @@ Use `git stash apply` to apply a specific stash.
 ]
 
 .right-column[
+Rebase!!!
 
 ]
 
