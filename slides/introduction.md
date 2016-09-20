@@ -17,7 +17,7 @@ Advanced Git
 
 Oh shit, git!
 
-GitHub and hubs of git
+GitHub
 
 Workflows
 
