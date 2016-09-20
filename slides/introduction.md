@@ -3,6 +3,8 @@ layout: true
 class: center, middle, inverse
 ---
 
+<a class="github-fork-ribbon" href="https://github.com/eclipsesource/introduction_to_git/" title="Fork me on GitHub">Fork me on GitHub</a>
+
 # Git, GitHub and Working Together
 [Ian Bull (irbull)](https://twitter.com/irbull)
 
