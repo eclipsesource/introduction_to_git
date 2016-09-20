@@ -1,0 +1,8 @@
+{
+ "name": "introduction_to_git",
+ "description": "Slides to teach Git and GitHub",
+ "version": "0.1.0",
+ "scripts": {
+   "start": "hs"
+ }
+}
