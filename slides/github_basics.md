@@ -1,3 +1,20 @@
+
+.left-column[
+## What is Git
+## Git basics
+]
+.right-column[
+Several Git clients available:
+* IDE Integration (Eclipse, IntelliJ IDEA, etc...)
+* gitk, git-gui
+* GitHub for Mac and Windows
+* SourceTree
+* Command line
+
+We will use the command line to teach the basics.
+]
+
+---
 .left-column[
 ## What is Git
 ## Git basics
