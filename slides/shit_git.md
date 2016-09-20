@@ -6,7 +6,8 @@
 ]
 
 .right-column[
-Git can be hard sometimes, but **almost** everything can be recovered.
+Git can be hard sometimes, and with teams you may find your repository in an
+inconsistent state. However, **almost** everything can be recovered.
 
 Git is really just a Directed Acyclic Graph (DAG) of commits, and most git
 commands simply modify that graph. If you get into trouble, you can usually
