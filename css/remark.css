@@ -54,6 +54,10 @@ code {
   line-height: 0.8em;
 }
 
+ul li {
+  padding: 5px 0px; 
+}
+
 /* Slide-specific styling */
 #slide-inverse .footnote {
   bottom: 12px;
