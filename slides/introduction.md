@@ -8,6 +8,13 @@ class: center, middle, inverse
 # Git, GitHub and Working Together
 [Ian Bull (irbull)](https://twitter.com/irbull)
 
+This presentation was created for  
+CSC 485E + SENG 480B at the  
+University of Victoria
+
+[Startup Programming](https://github.com/alexeyza/startup-programming)
+
+
 ---
 # Agenda
 
