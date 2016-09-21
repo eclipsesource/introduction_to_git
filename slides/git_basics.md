@@ -12,16 +12,9 @@ Several Git clients available:
 * Command line
 
 We will use the command line to teach the basics.
-]
 
----
-.left-column[
-## What is Git
-## Git basics
-### - Commits  
-]
+Start by creating a Git repository.
 
-.right-column[
   .pull-left[
     ```bash
     $ git init
@@ -35,16 +28,29 @@ We will use the command line to teach the basics.
 3. Commit the change-set
   ]
 
+]
+
+---
+.left-column[
+## What is Git
+## Git basics
+### - Commits  
+]
+
+.right-column[
+
 Write a detailed commit message:
+
 ![Default-aligned image](images/commit-message.png)
+
 Git takes care of the:
- - **Who**: author who committed the change-set
- - **When**: timestamp of the change-set
- - **How**: The code you committed
+ * **Who**: author who committed the change-set
+ * **When**: timestamp of the change-set
+ * **How**: The code you committed
 
 You **should** document:
- - **What**: What does this change-set do
- - **Why**: Why is this important
+ * **What**: What does this change-set do
+ * **Why**: Why is this important
 ]
 
 ---
