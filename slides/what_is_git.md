@@ -10,13 +10,9 @@ layout: false
   ![Default-aligned image](images/gitlogo.png)
 
 - Branching and merging with ease
-
 - Small and fast
-
 - Distributed
-
 - Data assurance
-
 - Free and open source
 ]
 
