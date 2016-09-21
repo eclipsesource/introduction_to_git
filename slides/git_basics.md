@@ -6,12 +6,14 @@
 .right-column[
 Several Git clients available:
 * IDE Integration (Eclipse, IntelliJ IDEA, etc...)
-* gitk, git-gui
+* gitk, git-gui, [gitkraken](https://www.gitkraken.com/)
 * GitHub for Mac and Windows
 * SourceTree
 * Command line
 
 We will use the command line to teach the basics.
+
+[https://try.github.io](https://try.github.io)
 
 Start by creating a Git repository.
 
