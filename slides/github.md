@@ -61,8 +61,9 @@ If you don't have a GitHub account yet, **signup now!!!**.
 GitHub also provides a **Student Developer Pack** filled with goodies
 for students like you!
 
-<img src="images/pack.png" width="300px"/>
-[https://education.github.com/pack](https://education.github.com/pack)
+<img src="images/pack.png" width="300px" class="centered"/>
+.centered-text[[https://education.github.com/pack](https://education.github.com/pack)
+]
 ]
 
 ---
@@ -83,7 +84,7 @@ to do, and assign them to members of your group.
 * Link to commit IDs directly from the conversation
 * Use commit messages with syntax such as `fixes #123` to automatically close issues
 
-[https://help.github.com/articles/closing-issues-via-commit-messages/](https://help.github.com/articles/closing-issues-via-commit-messages/)
+[Closing issues via commit messages](https://help.github.com/articles/closing-issues-via-commit-messages/)
 ]
 
 ---

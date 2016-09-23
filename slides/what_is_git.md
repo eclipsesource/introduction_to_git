@@ -7,7 +7,7 @@ layout: false
 
   A mature, well maintained, **distributed version control** system.
 
-  ![Default-aligned image](images/gitlogo.png)
+<img src="images/gitlogo.png" class="centered"/>
 
 - Branching and merging with ease
 - Small and fast

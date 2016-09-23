@@ -4,16 +4,14 @@
 ## Git basics
 ]
 .right-column[
-Several Git clients available:
+.listWithHeader[Several Git clients available:
 * IDE Integration (Eclipse, IntelliJ IDEA, etc...)
-* gitk, git-gui, [gitkraken](https://www.gitkraken.com/)
+* gitk, git-gui, [gitkraken](https://www.gitkraken.com/), [SourceTree](https://www.atlassian.com/software/sourcetree)
 * GitHub for Mac and Windows
-* SourceTree
 * Command line
+]
 
 We will use the command line to teach the basics.
-
-[https://try.github.io](https://try.github.io)
 
 Start by creating a Git repository.
 
@@ -29,6 +27,9 @@ Start by creating a Git repository.
 2. Add file `a.text`
 3. Commit the change-set
   ]
+
+<br><br>
+Checkout [https://try.github.io](https://try.github.io) to learn Git.
 
 ]
 
@@ -65,11 +66,13 @@ You **should** document:
 ]
 .right-column[
 The main tool you use to determine which files are in which state is the
-`git status` command.  The **status** tool tell you:
+`git status` command.  The **status** tool tells you:
 * The files that have changed
 * The files that have been staged (changed, and ready for commit)
 * The files that are untracked (not part of the repository)
 * The files that have been deleted
+
+<img src="images/git-status.png" width="500px" class="centered"/>
 ]
 
 ---
@@ -82,19 +85,19 @@ The main tool you use to determine which files are in which state is the
  ### - Logs
 ]
 .right-column[
- Some advice on writing good commit messages:  
- [http://chris.beams.io/posts/git-commit/](http://chris.beams.io/posts/git-commit/)
+Some advice on writing good commit messages:  
+[http://chris.beams.io/posts/git-commit/](http://chris.beams.io/posts/git-commit/)
 
- Commit logs should tell the story of **how** your software was developed.
- ![Center-aligned image](images/git_commit.png)
+Commit logs should tell the story of **how** your software was developed.
+
+<img src="images/git_commit.png" class="centered"/>
 
  Work on commits until they are **perfect**. Don't be afraid to *amend* commits,
- but once they are public, they are immutable. .red[*]
+ but once they are public, they are immutable.
 
  Use `git log` to see the history of your project. Use the `--graph` argument
  to see the merge paths.
 
- .footnote[.red[*] Once they are public, and in the master / production branch]
 ]
 
 ---
@@ -107,7 +110,7 @@ The main tool you use to determine which files are in which state is the
  ### - Branches
 ]
 .right-column[
- ![Default-aligned image](images/branch.svg)
+<img src="images/branch.svg" class="centered"/>
  *Branching* is the way to work on different versions of a repository at one time
 
  By default, your repository will have one branch named `master`.
@@ -140,7 +143,7 @@ The main tool you use to determine which files are in which state is the
 .right-column[
 Merging is Git's way of putting a *forked* history back together again.
 
-![Default-aligned image](images/3way-merge.png)
+<img src="images/3way-merge.png" class="centered"/>
 
 Once you've finished developing a feature, it's important to be able to get
 it back into the main code base.
