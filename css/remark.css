@@ -54,8 +54,16 @@ code {
   line-height: 0.8em;
 }
 
+.listWithHeader p{
+  margin-bottom : 0;
+}
+
+.listWithHeader ul{
+  margin-top : 7px;
+}
+
 ul li {
-  padding: 5px 0px; 
+  padding: 5px 0px;
 }
 
 /* Slide-specific styling */
@@ -91,6 +99,16 @@ ul li {
   position: relative;
   background: #fff;
   z-index: 0;
+}
+
+.centered-text {
+  text-align: center
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 /* Two-column layout */
