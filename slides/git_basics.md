@@ -111,7 +111,7 @@ Commit logs should tell the story of **how** your software was developed.
 ]
 .right-column[
 <img src="images/branch.svg" class="centered"/>
- *Branching* is the way to work on different versions of a repository at one time
+ *Branching* is the way to work on different versions of a repository at one time.
 
  By default, your repository will have one branch named `master`.
 
