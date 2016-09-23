@@ -5,7 +5,13 @@
 ]
 
 .right-column[
+ <img src="images/git-is-hard.png" class="centered" width="300px"/>
 
+.centered-text[[Source](http://merrigrove.blogspot.ca/2014/02/why-heck-is-git-so-hard-places-model-ok.html)
+]
+* Git is often considered overly complex
+* Makes easy things easy and hard things possible?
+* Easy is objective
 ]
 
 ---
@@ -90,6 +96,14 @@ was taken, and every wrong turn that was made.
 ]
 
 .right-column[
+<img src="images/reset-workflow.png" class="centered" width="500px"/>
+* Work on files in your current working directory
+* `git add` adds the file to the index
+* `git commit` commits index
+* `git reset` can be used to reset where HEAD points
+
+**Reset** is a very powerful command, but make sure you understand what it's
+doing! Read [Reset Demystified](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified).
 
 ]
 
@@ -105,7 +119,13 @@ was taken, and every wrong turn that was made.
 ]
 
 .right-column[
+Every data storing action (commit, reset, pull, etc...) is stored in the
+**reflog**. Use `git reflog` to see this log. Use this as your safety net.
 
+<img src="images/reflog.png" width="500px" class="centered"/>
+
+Reflog combined with checkout and reset can be used to surgically fix your
+git repository.
 ]
 
 ---
@@ -121,5 +141,9 @@ was taken, and every wrong turn that was made.
 ]
 
 .right-column[
+Add a `.gitignore` file to your repository to intentionally specify files
+to ignore. Good candidates are binary files, log files, temporary files, etc...
 
+Checkout [Git Ignore Templates](https://github.com/github/gitignore) for a
+collection of `.gitignore` files.
 ]
